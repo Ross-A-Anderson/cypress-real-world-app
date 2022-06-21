@@ -4,8 +4,8 @@ on:
   push:
     branches-ignore:
       - "renovate/**"
-    paths:
-      - '!ross/**'
+    paths-ignore:
+      - 'ross/**'
 
 jobs:
   install:
